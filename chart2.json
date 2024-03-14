@@ -11,7 +11,7 @@
  
   "data": {"url": "https://raw.githubusercontent.com/tsaha23/tsaha23.github.io/main/clean_gdp.csv"},
  
-  "mark": "line",
+  "mark": {"type": "line", "color":"hotpink"},
  
   "encoding": {
     "x": {"field": "date", "title":null, "type":"temporal"},
