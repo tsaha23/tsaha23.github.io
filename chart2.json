@@ -1,0 +1,20 @@
+ 
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text":"Real GDP growth (QOQ)",
+    "subtitle": ["Source: ONS"]},
+
+  "width": 500,
+  "height": 400,
+ 
+  "data": {"url": "https://raw.githubusercontent.com/tsaha23/tsaha23.github.io/main/clean_gdp.csv"},
+ 
+  "mark": "line",
+ 
+  "encoding": {
+    "x": {"field": "date", "title":null, "type":"temporal"},
+    "y": {"field": "gdp", "type": "quantitative", "title":null}
+  }
+}
